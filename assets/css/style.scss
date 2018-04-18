@@ -2,7 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
-
+@import url("style.css");
+/*
 html {
   background-color: black;
   color: white;
@@ -12,3 +13,4 @@ html {
 img {
   width: 500px;
   }
+*/
