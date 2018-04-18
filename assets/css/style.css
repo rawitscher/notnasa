@@ -1,12 +1,9 @@
----
----
-
-@import "{{ site.theme }}";
-
-html
+html {
   background-color: black
   color: white
   font-size: 24px
+  }
 
-img
+img {
   width: 500px
+  }
