@@ -2,12 +2,13 @@
 ---
 
 @import "{{ site.theme }}";
-img{
-  width: 500px;
+
+html {
+  background-color: black;
+  color: white;
+  font-size: 24px;
   }
 
- html{
-     background-color: black;
-     color: white;
-     font-size: 24px;
- }
+img {
+  width: 500px;
+  }
