@@ -1,1 +1,11 @@
 theme: jekyll-theme-minimal
+title: Definitely not NASA
+description: Tbd as of now.
+logo: assets/logo/main.jpg
+show_downloads: "true"
+##google_analytics: [Your Google Analytics tracking ID]
+
+###Tracking
+jekyll_clicky:
+  site:
+    id: 101113119
