@@ -4,13 +4,15 @@ description: Tbd as of now.
 logo: assets/logo/main.jpg
 show_downloads: "true"
 
+# Google Analytics
+google_analytics: UA-117922683-1
 
-plugins:
-  - jekyll-analytics
+
+##plugins:
+##  - jekyll-analytics
 
 
 ##Google Analytics
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-117922683-1
-    anonymizeIp: false
+##  GoogleAnalytics:
+##    id: UA-117922683-1
+##    anonymizeIp: false

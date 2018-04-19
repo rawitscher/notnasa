@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-analytics', group: :jekyll_plugins
-gem 'jekyll-clicky'
+#gem 'jekyll-analytics', group: :jekyll_plugins
+#gem 'jekyll-clicky'
 
 
 #- "jekyll-responsive-image"
