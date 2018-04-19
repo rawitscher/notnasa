@@ -40,10 +40,11 @@
       </header>
       <section>
 
-      {{ content }}
+      <p>This is section</p>
 
       </section>
       <footer>
+          <p>This is footer</p>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
@@ -51,8 +52,6 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-
-    {% include clicky.html trackingid="{101113119" %}
 
     {% if site.google_analytics %}
     <script>
