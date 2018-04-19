@@ -3,4 +3,14 @@ title: Definitely not NASA
 description: Tbd as of now.
 logo: assets/logo/main.jpg
 show_downloads: "true"
-##google_analytics: [TrackingID]
+
+
+plugins:
+  - jekyll-analytics
+
+
+##Google Analytics
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-117922683-1
+    anonymizeIp: false
