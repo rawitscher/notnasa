@@ -61,5 +61,26 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+    <script>
+        // Image pool to select from
+        var images = [
+            '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg'
+        ];
+
+        // Pick a random image
+        var maxImages   = images.length;
+        var rand        = Math.floor(Math.random() * maxImages);
+        var image       = images[rand];
+
+         // Set image as background
+        $(".jumbotron").backstretch(
+            '/assets/backgrounds/' + image,
+            {
+                centeredY: false
+            }
+        );
+    </script>
   </body>
 </html>
